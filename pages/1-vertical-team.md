@@ -15,6 +15,7 @@ Due anni fa abbiamo riorganizzato i team per prodotto, non più per competenza.
 <!--
 Per capire dove stiamo andando, bisogna partire da dove eravamo. Due anni fa i team erano organizzati per competenza: c'era il team backend, il team frontend, il team mobile. Quando dovevi fare una feature, servivano almeno due o tre team, ognuno con la sua coda di lavoro, i suoi tempi, le sue priorità. Il contesto si perdeva a ogni passaggio. Abbiamo deciso di cambiare radicalmente: ogni team segue un prodotto dall'inizio alla fine. Backend, frontend, API, regole di business — tutto in mano alle stesse persone. È stato un cambio culturale prima ancora che tecnico, e ci ha messo un po' a ingranare. Ma oggi funziona.
 -->
+
 ---
 
 # I Risultati
@@ -25,24 +26,28 @@ Per capire dove stiamo andando, bisogna partire da dove eravamo. Due anni fa i t
 **Meno handoff**
 
 Meno riunioni di allineamento, meno ticket che rimbalzano
+
 </div>
 <div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Dominio condiviso**
 
 Chi entra nel team capisce subito il perimetro
+
 </div>
 <div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Bug fix rapidi**
 
 Chi fixa il bug è chi ha scritto il codice
+
 </div>
 <div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Roadmap chiara**
 
 Nessuna zona grigia su chi fa cosa
+
 </div>
 </div>
 
@@ -71,30 +76,55 @@ Ok, ora parliamo di noi nello specifico. Il nostro team si occupa di chat e vide
 
 ---
 
-# Il Pezzo che Manca
+# Il Nostro Team Oggi
+
+<div class="flex flex-col items-center justify-center mt-6">
+    <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
+        <li>- fontrendisti</li>
+        <li>- backendisti</li>
+        <li>- ux designer</li>
+    </ul>
+</div>
+
+<div class="mt-10 text-xl leading-relaxed">
+
+Gestiamo **chat, videochiamate e files** di Carbonio, end-to-end.
+
+Web e backend, dalla progettazione alla produzione. Quando arriva un bug o una feature, non serve coordinarsi con nessun altro.
+
+<div class="mt-8 p-4 text-center" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
+Un unico team · Zero dipendenze esterne · Dalla segnalazione al fix
+</div>
+</div>
+---
+
+# Ulteriore verticalizzazione
 
 <div class="mt-8">
 
-Il **client mobile** è ancora fuori dal nostro perimetro. È esattamente il problema che la verticalizzazione doveva risolvere.
+Aggiungere il **client mobile**.
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
 
-**Team diverso**
+**Stesso Team**
 
-Chi sviluppa il mobile non conosce il backend
+Chi sviluppa il mobile ora conosce il backend.
+
 </div>
 <div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
 
-**Feature x2**
+**Features "quasi" unica**
 
-Ogni nuova funzionalità va spiegata due volte
+Ora le feature sviluppate dal front end sono riutilizzabili l'80% anche nel mobile
+
 </div>
 <div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
 
-**Bug lenti**
+**Bug fix veloce x2**
 
-Chi risolve il bug non ha il contesto per capirlo
+Chi risolve il bug conosce il contesto e la stessa correzione può essere condivisa tra frontend e mobile
+
 </div>
 </div>
 </div>
@@ -117,18 +147,21 @@ React Native porta il mobile **dentro il team Chats**.
 **Stesso stack**
 
 TypeScript, React, Zustand — niente di nuovo da imparare
+
 </div>
 <div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Stessa logica**
 
 Il codice di business è già scritto e già testato
+
 </div>
 <div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Stessa persona**
 
 Chi lavora sul web può lavorare sul mobile
+
 </div>
 </div>
 

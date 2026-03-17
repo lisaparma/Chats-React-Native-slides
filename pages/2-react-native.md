@@ -1,40 +1,105 @@
 # Perché React Native?
 
-<div class="grid grid-cols-2 gap-6 mt-8">
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-<div class="text-2xl mb-3" style="color: #61dafb;">⌨️</div>
+## Cos'è
 
-**Stesso linguaggio**
+<br />
 
-TypeScript e React — tutto il team può contribuire dal giorno uno
-</div>
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-<div class="text-2xl mb-3" style="color: #61dafb;">♻️</div>
+- **React Native**: framework open source di Meta per creare app mobile native usando JavaScript/TypeScript e React. Permette di scrivere una sola codebase per iOS e Android, con UI e performance native.
 
-**Codice condiviso**
-
-Store, modelli dati e utility si portano dal web così come sono
-</div>
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-<div class="text-2xl mb-3" style="color: #61dafb;">⚡</div>
-
-**Compilato nativo**
-
-Non è una WebView mascherata — componenti e performance reali
-</div>
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-<div class="text-2xl mb-3" style="color: #61dafb;">🔧</div>
-
-**Estensibile**
-
-Se serve qualcosa di specifico, scriviamo un modulo nativo
-</div>
-</div>
+- **Expo**: piattaforma e toolchain che semplifica lo sviluppo React Native. Offre strumenti, librerie, build cloud e aggiornamenti OTA, rendendo più facile e veloce creare, testare e distribuire app mobile.
 
 <!--
 Voglio essere chiara su un punto: React Native non è "il meno peggio". Per il nostro contesto specifico, è la scelta migliore. Stesso linguaggio — TypeScript e React — significa che chiunque nel team può contribuire al mobile dal giorno uno, senza formazione aggiuntiva. Il codice condiviso non è un'aspirazione: è realtà. Gli store Zustand, la logica di normalizzazione dei messaggi, le utility — le abbiamo già portate e funzionano. React Native compila in componenti nativi veri, non è una WebView mascherata. E se mai dovessimo fare qualcosa che React Native non offre di suo — per esempio un'integrazione molto specifica con il sistema operativo — possiamo sempre scrivere un modulo nativo in Swift o Kotlin. Non siamo mai bloccati.
 -->
+
 ---
+
+# Perché react Native? - Stesso linguaggio
+
+<div class="flex flex-col items-start w-full">
+
+<div class="p-8 w-full max-w-3xl" style="background: rgba(97,218,251,0.08); border-radius: 12px;">
+<div class="text-lg">
+React Native utilizza:
+</div>
+
+<div class="text-lg">
+<div class="flex flex-col items-start">
+    <ul class="list-disc text-lg my-6">
+        <li><strong>TypeScript</strong></li>
+        <li><strong>React</strong></li>
+        <li><strong>Zustand</strong></li>
+    </ul>
+</div>
+<div class="text-lg mt-8">
+    Gli stessi strumenti che già usiamo per il web. Questo permette a tutto il team di contribuire allo sviluppo mobile fin dal primo giorno, senza la necessità di apprendere nuove tecnologie o affrontare curve di apprendimento aggiuntive.
+</div>
+</div>
+</div>
+
+</div>
+
+---
+
+# Perché react Native? - Codice condiviso
+
+```mermaid
+flowchart LR
+    subgraph Web
+        direction TB
+        A[Frontend Web<br/>React + TypeScript]
+    end
+    subgraph Mobile
+        direction TB
+        B[App Mobile<br/>React Native + TypeScript]
+        B1[iOS]
+        B2[Android]
+        B --> B1
+        B --> B2
+    end
+    subgraph Shared["Business Logic<br/>Zustand + TypeScript"]
+        direction TB
+        S[Store, Models,<br/>API, WebSocket]
+    end
+
+    S -- "riuso" --> A
+    S -- "riuso" --> B
+
+    style Web fill:#1565c0,stroke:#2196f3,stroke-width:2px,color:#fff
+    style Mobile fill:#1565c0,stroke:#2196f3,stroke-width:2px,color:#fff
+    style Shared fill:#1976d2,stroke:#2196f3,stroke-width:2px,color:#fff
+    style S fill:#29b6f6,stroke:#2196f3,stroke-width:2px,color:#212121
+    style A fill:#29b6f6,stroke:#2196f3,stroke-width:2px,color:#212121
+    style B fill:#29b6f6,stroke:#2196f3,stroke-width:2px,color:#212121
+    style B1 fill:#1565c0,stroke:#2196f3,stroke-width:1px,color:#fff
+    style B2 fill:#1565c0,stroke:#2196f3,stroke-width:1px,color:#fff
+```
+
+<div class="mt-6 text-center text-lg" style="color: #fff; background: #1565c0; border-radius: 8px; padding: 16px;">
+La business logic è definita nello store Zustand<br>e include anche chiamate API e gestione WebSocket.<br>
+Tutto questo può essere riutilizzato sia dalla Web UI che da React Native.
+</div>
+
+---
+
+# Perché react Native? - Compilato nativo
+
+- Scrivi il codice in JavaScript/TypeScript usando React.
+- Il codice viene eseguito da un motore JavaScript (Hermes/JSC) all’interno dell’app.
+- I componenti React Native non sono webview: sono mappati su veri componenti nativi (UIView su iOS, View su Android).
+- La comunicazione tra JS e codice nativo avviene tramite un “bridge” (nelle nuove versioni, tramite la New Architecture e JSI).
+- Il risultato: UI e performance native, con logica condivisa tra piattaforme.
+
+---
+
+# Perché react Native? - Estensibile
+
+- Se serve una funzionalità non disponibile, puoi scrivere moduli nativi in Swift (iOS) o Kotlin/Java (Android)
+- React Native espone API per integrare facilmente codice nativo
+- Expo supporta moduli nativi tramite Expo Modules o “eject”
+- Così puoi accedere a tutte le feature hardware e OS, senza limiti
+
+--- #13
 
 # Perché Ora?
 
@@ -79,6 +144,7 @@ Un'altra domanda legittima: "Se React Native è così bello, perché non l'avete
 - Alcune API native non hanno wrapper pronti, servono moduli custom
 - Il debug su device fisico è più complesso del browser
 - La New Architecture è stabile ma giovane, la community sta migrando
+- Performance leggermente inferiori in casi molto specifici (grafica, animazioni complesse)
 </div>
 </div>
 
