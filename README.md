@@ -1,11 +1,13 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Chats React Native Slides
 
-To start the slide show:
+## Slides
+https://lisaparma.github.io/Chats-React-Native-slides
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Presenter slides
+https://lisaparma.github.io/Chats-React-Native-slides/presenter
 
-Edit the [slides.md](./slides.md) to see the changes.
+## Overview
+https://lisaparma.github.io/Chats-React-Native-slides/overview
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## Export 
+https://lisaparma.github.io/Chats-React-Native-slides/export
