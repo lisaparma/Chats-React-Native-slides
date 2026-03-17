@@ -99,7 +99,16 @@ Tutto questo può essere riutilizzato sia dalla Web UI che da React Native.
 - Expo supporta moduli nativi tramite Expo Modules o “eject”
 - Così puoi accedere a tutte le feature hardware e OS, senza limiti
 
---- #13
+---
+
+# Perché react Native? - Upgrade degli SDK
+
+React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione negli store:
+
+- Upgrade SDK: Expo offre comandi e documentazione per aggiornare facilmente l’SDK, con tool che automatizzano gran parte del processo. React Native ha una community attiva e strumenti come “react-native upgrade”.
+- Pubblicazione negli store: Expo fornisce build cloud, generazione automatica di pacchetti (APK/IPA) e procedure guidate per la pubblicazione su App Store e Google Play, riducendo errori e complessità.
+
+---
 
 # Perché Ora?
 

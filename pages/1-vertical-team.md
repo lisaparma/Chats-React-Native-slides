@@ -105,21 +105,21 @@ Un unico team · Zero dipendenze esterne · Dalla segnalazione al fix
 Aggiungere il **client mobile**.
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
+<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Stesso Team**
 
 Chi sviluppa il mobile ora conosce il backend.
 
 </div>
-<div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
+<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Features "quasi" unica**
 
 Ora le feature sviluppate dal front end sono riutilizzabili l'80% anche nel mobile
 
 </div>
-<div class="text-center p-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
+<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Bug fix veloce x2**
 
