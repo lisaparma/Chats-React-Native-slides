@@ -30,10 +30,6 @@
 </div>
 
 </div>
-
-<div class="mt-8 p-3 text-center" style="background: rgba(244,194,13,0.1); border-radius: 8px; border: 1px solid rgba(244,194,13,0.2); color: #f4c20d;">
-Con gli aggiornamenti OTA, anche dopo il rilascio mandiamo fix in minuti — senza aspettare gli store
-</div>
 </div>
 
 <!--

@@ -82,19 +82,19 @@ Aggiungere il **client mobile**.
 
 **Stesso Team**
 
-Chi sviluppa il mobile ora conosce il backend.
+Chi sviluppa il mobile ora conosce l'universo del discorso.
 
 </div>
 <div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
 **Features "quasi" unica**
 
-Ora le feature sviluppate dal front end sono riutilizzabili l'80% anche nel mobile
+Ora le feature sviluppate dal front end sono riutilizzabili l'70% anche nel mobile
 
 </div>
 <div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
 
-**Bug fix veloce x2**
+**Bug fix veloce x3**
 
 Chi risolve il bug conosce il contesto e la stessa correzione può essere condivisa tra frontend e mobile
 

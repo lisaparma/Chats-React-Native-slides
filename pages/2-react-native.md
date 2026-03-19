@@ -14,34 +14,28 @@ Voglio essere chiara su un punto: React Native non è "il meno peggio". Per il n
 
 ---
 
-# Perché react Native? - Stesso linguaggio
+# Perché React Native? - Stesso linguaggio
 
 <div class="flex flex-col items-start w-full">
 
-<div class="p-8 w-full max-w-3xl" style="background: rgba(97,218,251,0.08); border-radius: 12px;">
 <div class="text-lg">
 React Native utilizza:
 </div>
-
-<div class="text-lg">
 <div class="flex flex-col items-start">
-    <ul class="list-disc text-lg my-6">
+    <ul class="list-disc text-lg my-2">
         <li><strong>TypeScript</strong></li>
         <li><strong>React</strong></li>
         <li><strong>Zustand</strong></li>
     </ul>
 </div>
-<div class="text-lg mt-8">
+<div class="text-lg mt-4">
     Gli stessi strumenti che già usiamo per il web. Questo permette a tutto il team di contribuire allo sviluppo mobile fin dal primo giorno, senza la necessità di apprendere nuove tecnologie o affrontare curve di apprendimento aggiuntive.
 </div>
-</div>
-</div>
-
 </div>
 
 ---
 
-# Perché react Native? - Codice condiviso
+# Perché React Native? - Codice condiviso
 
 ```mermaid
 flowchart LR
@@ -82,7 +76,7 @@ Tutto questo può essere riutilizzato sia dalla Web UI che da React Native.
 
 ---
 
-# Perché react Native? - Compilato nativo
+# Perché React Native? - Compilato nativo
 
 - Scrivi il codice in JavaScript/TypeScript usando React.
 - Il codice viene eseguito da un motore JavaScript (Hermes/JSC) all’interno dell’app.
@@ -92,7 +86,7 @@ Tutto questo può essere riutilizzato sia dalla Web UI che da React Native.
 
 ---
 
-# Perché react Native? - Estensibile
+# Perché React Native? - Estensibile
 
 - Se serve una funzionalità non disponibile, puoi scrivere moduli nativi in Swift (iOS) o Kotlin/Java (Android)
 - React Native espone API per integrare facilmente codice nativo
@@ -101,7 +95,7 @@ Tutto questo può essere riutilizzato sia dalla Web UI che da React Native.
 
 ---
 
-# Perché react Native? - Upgrade degli SDK
+# Perché React Native? - Upgrade degli SDK
 
 React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione negli store:
 
