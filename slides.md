@@ -217,6 +217,13 @@ fonts:
   color: #94a3b8;
   font-size: 0.95em;
 }
+
+/* — Slide number — */
+.slidev-page-number {
+  color: rgba(148, 163, 184, 0.7) !important;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75em;
+}
 </style>
 
 <div class="flex items-center gap-16 h-full">
