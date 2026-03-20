@@ -15,7 +15,11 @@ fonts:
 
 /* — Base — */
 .slidev-layout {
-  background: #1a1a2e;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(97,218,251,0.30) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 15%, rgba(42,100,200,0.38) 0%, transparent 50%),
+    radial-gradient(ellipse at 65% 85%, rgba(97,218,251,0.18) 0%, transparent 45%),
+    #1a1a2e;
   color: #e2e8f0;
   font-family: 'DM Sans', sans-serif;
 }
@@ -120,7 +124,7 @@ fonts:
 }
 
 .slidev-layout.section-map::before {
-  content: 'Team';
+  content: 'team';
   left: 2%;
   background: rgba(230,57,70,0.15);
   color: #e63946;
@@ -128,7 +132,7 @@ fonts:
 }
 
 .slidev-layout.section-react::before {
-  content: 'React Native';
+  content: 'react native';
   left: 27%;
   background: rgba(97,218,251,0.15);
   color: #61dafb;
@@ -136,7 +140,7 @@ fonts:
 }
 
 .slidev-layout.section-app::before {
-  content: "L'App";
+  content: "l'app";
   left: 52%;
   background: rgba(42,157,92,0.15);
   color: #2a9d5c;
@@ -144,7 +148,7 @@ fonts:
 }
 
 .slidev-layout.section-next::before {
-  content: "What's Next";
+  content: "what's next";
   left: 77%;
   background: rgba(244,194,13,0.15);
   color: #f4c20d;
@@ -227,11 +231,13 @@ fonts:
 </style>
 
 <div class="flex items-center gap-16 h-full">
-<img src="/icon-blu.png" class="rounded-xl shrink-0" style="max-height: 250px; object-fit: cover;" />
+<img src="/icon-blu.png" class="shrink-0" style="max-height: 250px; object-fit: cover; border-radius: 22%;" />
 <div>
 
-# Chats Mobile
-## in React Native
+# Chats App
+## L'evoluzione mobile
+
+<p class="subtitle mt-4">25 marzo 2026</p>
 
 </div>
 </div>

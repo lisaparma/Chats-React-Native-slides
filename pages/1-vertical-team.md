@@ -1,14 +1,18 @@
 # Da Team Orizzontali a Verticali
 
-Due anni fa abbiamo riorganizzato i team per prodotto, non più per competenza.
+<div class="text-lg leading-relaxed mt-2">
+Due anni fa abbiamo riorganizzato i team per prodotto, non più per competenza
+</div>
 
 <div class="mt-8">
 
-- 🏗️ **End-to-end** — ogni team possiede il suo dominio dall'inizio alla fine
-- 🚫 **Zero handoff** — una feature non passa più per 2-3 team diversi
-- 🎯 **Ownership** — chi firma il prodotto sa sempre cosa succede e perché
-- ⚡ **Velocità** — dal ticket al deploy senza code tra team
-- 🔍 **Qualità** — chi costruisce è chi mantiene, gli standard restano alti
+<div class="flex flex-col gap-3 mt-2">
+  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Un team, un prodotto</span> <span class="subtitle">— dalla UI al database, tutto sotto lo stesso tetto</span></div>
+  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Niente code</span> <span class="subtitle">— una feature non aspetta l'ok di un altro team</span></div>
+  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Chi lo fa, lo mantiene</span> <span class="subtitle">— il contesto rimane sempre in casa</span></div>
+  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Dal ticket al deploy</span> <span class="subtitle">— zero passaggi di mano nel mezzo</span></div>
+  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Perimetro chiaro</span> <span class="subtitle">— ogni persona sa esattamente di cosa è responsabile</span></div>
+</div>
 
 </div>
 
@@ -16,29 +20,33 @@ Due anni fa abbiamo riorganizzato i team per prodotto, non più per competenza.
 
 # I Risultati
 
-<div class="grid grid-cols-2 gap-6 mt-8">
-<div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+<div class="text-lg leading-relaxed mt-2">
+Dalla progettazione alla produzione, tutto nello stesso team
+</div>
+
+<div class="grid grid-cols-2 gap-3 mt-6">
+<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Meno handoff**
 
 Meno riunioni di allineamento, meno ticket che rimbalzano
 
 </div>
-<div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Dominio condiviso**
 
 Chi entra nel team capisce subito il perimetro
 
 </div>
-<div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Bug fix rapidi**
 
 Chi fixa il bug è chi ha scritto il codice
 
 </div>
-<div class="p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
 **Roadmap chiara**
 
@@ -47,35 +55,23 @@ Nessuna zona grigia su chi fa cosa
 </div>
 </div>
 
+<div class="mt-6 p-3 text-center" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
+Un unico team · Zero dipendenze esterne
+</div>
+
+---
+layout: center
 ---
 
-# Il Nostro Team Oggi
+# Come possiamo migliorare?
 
-<div class="flex flex-col items-center justify-center mt-6">
-    <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
-        <li>- fontrendisti</li>
-        <li>- backendisti</li>
-        <li>- ux designer</li>
-    </ul>
-</div>
-
-<div class="mt-10 text-xl leading-relaxed">
-
-Gestiamo **chat, videochiamate e files** di Carbonio, end-to-end.
-
-Web e backend, dalla progettazione alla produzione. Quando arriva un bug o una feature, non serve coordinarsi con nessun altro.
-
-<div class="mt-8 p-4 text-center" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-Un unico team · Zero dipendenze esterne · Dalla segnalazione al fix
-</div>
-</div>
 ---
 
 # Ulteriore verticalizzazione
 
 <div class="mt-8">
 
-Aggiungere il **client mobile**.
+Inglobare il **client mobile**.
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
@@ -101,10 +97,6 @@ Chi risolve il bug conosce il contesto e la stessa correzione può essere condiv
 </div>
 </div>
 </div>
-
-<!--
-Però c'è un pezzo che manca, ed è il punto cruciale di tutta questa presentazione. Il client mobile — l'app che gli utenti usano su telefono — è ancora gestito da un team diverso dal nostro. Pensateci: è esattamente la situazione che la verticalizzazione doveva eliminare. Ogni nuova feature della chat va spiegata due volte, a due team diversi. Ogni bug mobile coinvolge persone che non hanno il contesto del backend. I tempi si allungano, la qualità ne risente. Finché il mobile resta fuori dal nostro perimetro, l'investimento nella verticalizzazione è incompleto. Manca l'ultimo miglio.
--->
 
 ---
 

@@ -1,27 +1,43 @@
-# Chats Mobile React Native
+---
+layout: center
+---
+# Cosa abbiamo realizzato?
+---
 
-Ecco cosa abbiamo ottenuto finora.
+# Chats in React Native
 
 <div class="flex gap-10 mt-2 items-center">
-  <div class="shrink-0" style="width: 180px;">
+  <div class="shrink-0" style="width: 200px;">
     <img src="/app1.png" style="width: 100%; display: block; filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));" />
   </div>
-  <div class="grid grid-cols-2 gap-4 flex-1">
-    <div class="text-center p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-      <div class="big-number">40</div>
-      <div class="subtitle">giorni di sviluppo effettivo</div>
+  <div class="flex flex-col gap-3 flex-1">
+    <div class="grid grid-cols-2 gap-3">
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">50</div>
+        <div class="subtitle text-sm">giorni di sviluppo</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">~60%</div>
+        <div class="subtitle text-sm">codice dal web</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">0</div>
+        <div class="subtitle text-sm">blocker tecnici</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">2</div>
+        <div class="subtitle text-sm">piattaforme, 1 codebase</div>
+      </div>
     </div>
-    <div class="text-center p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-      <div class="big-number">~60%</div>
-      <div class="subtitle">codice portato dal web</div>
-    </div>
-    <div class="text-center p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-      <div class="big-number">0</div>
-      <div class="subtitle">blocker tecnici incontrati</div>
-    </div>
-    <div class="text-center p-4" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-      <div class="big-number">2</div>
-      <div class="subtitle">piattaforme, 1 codebase</div>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="text-center p-3" style="background: rgba(42,157,92,0.1); border-radius: 8px; border: 1px solid rgba(42,157,92,0.25);">
+        <div style="font-size: 2.2em; font-weight: 700; color: #2a9d5c; line-height: 1.2;">80%</div>
+        <div class="subtitle text-sm">feature parity — chat</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(244,194,13,0.08); border-radius: 8px; border: 1px solid rgba(244,194,13,0.25);">
+        <div style="font-size: 2.2em; font-weight: 700; color: #f4c20d; line-height: 1.2;">40%</div>
+        <div class="subtitle text-sm">feature parity — videochiamate</div>
+      </div>
     </div>
   </div>
 </div>
@@ -29,76 +45,72 @@ Ecco cosa abbiamo ottenuto finora.
 
 ---
 
-# La Chat
+# Messaggistica
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+<div class="flex gap-8 mt-4 items-start">
+  <div class="shrink-0" style="width: 200px;">
+    <img src="/app2.png" style="width: 100%; display: block; filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));" />
+  </div>
+  <div class="grid grid-cols-2 gap-4 flex-1">
+    <div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
-### ✅ Funzionalità core 
+### ✅ Fatto
 
+- Login con 2FA e QR code
 - Conversazioni 1:1 e di gruppo
 - Messaggi con allegati
-- Push notification (FCM e APNs)
-- Login con 2FA e QR code
 - Persistenza dati
+- Push notification (FCM e APNs)
 - Build su TestFlight e Google Play
+- Pin dei messaggi*
 
 </div>
-<div class="p-5" style="background: rgba(42,157,92,0.1); border-radius: 8px; border: 1px solid rgba(42,157,92,0.2);">
+<div class="p-5" style="background: rgba(230,57,70,0.08); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
 
-### Già oltre l'app nativa
+### 📋 Da fare
 
-- **Pin dei messaggi**
+- Persistenza messaggi offline
+- Caricamento immagine gruppo
+- Forward messaggi
+- Ricerca messaggi
 
-<div class="mt-4 text-sm subtitle">
-Questa feature è stata sviluppata in contemporanea al web
 </div>
-
-</div>
+  </div>
 </div>
 
 ---
 
-# Le Videochiamate
+# Videochiamate
 
-<div class="mt-4 mb-8 subtitle">Non ancora complete, ma la parte rischiosa è fatta.</div>
+<div class="flex gap-8 mt-4 items-start">
+  <div class="shrink-0" style="width: 200px;">
+    <img src="/app3.png" style="width: 100%; display: block; filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));" />
+  </div>
+  <div class="grid grid-cols-2 gap-4 flex-1">
+    <div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
-<div class="grid grid-cols-4 gap-4">
-<div class="text-center p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-  <div class="text-3xl mb-3"> 🎧 🎤</div>
+### ✅ Fatto
 
-**Audio**
+- Audio (stream locale e remoto)
+- Video (stream locale e remoto)
+- Selezione dispositivi (cuffie, bluetooth, altoparlante)
+- Integrazione con chiamate native
+- Ice restart — riconnessione automatica al cambio rete*
 
-Stream locale e remoto funzionante
 </div>
-<div class="text-center p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-  <div class="text-3xl mb-3">📹</div>
+<div class="p-5" style="background: rgba(230,57,70,0.08); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
 
-**Video**
+### 📋 Da fare
 
-Stream locale e remoto funzionanti
+- Visualizzazione tile (griglia, speaker view)
+- Recording
+- Condivisione schermo
+- Visualizzare chi sta parlando
+- Alzata di mano
+- Gestione virtual room
+- Waiting room
+
 </div>
-<div class="text-center p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-  <div class="text-3xl mb-3">🔊</div>
-
-**Risorse**
-
-Dispositivi rilevati e selezionabili correttamente
-</div>
-<div class="text-center p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-  <div class="text-3xl mb-3">📱</div>
-
-**Integrazione con chiamate native**
-
-L'integrazione nativa più delicata, già funzionante
-</div>
-</div>
-
-<div class="mt-4 p-4 flex items-center gap-4" style="background: rgba(42,157,92,0.1); border-radius: 8px; border: 1px solid rgba(42,157,92,0.2);">
-  <div class="text-2xl">🔄</div>
-  <div>
-    <strong>Ice restart</strong> — Riconnessione automatica al cambio rete
-    <span class="subtitle text-sm ml-2">Già oltre il web e l'app nativa</span>
   </div>
 </div>
 
@@ -106,10 +118,13 @@ L'integrazione nativa più delicata, già funzionante
 
 # Demo
 
-<div class="flex flex-col items-center justify-center mt-16">
-  <div class="text-6xl mb-8">📱</div>
-  <div class="text-2xl font-semibold mb-4" style="color: #2a9d5c;">Vediamola in azione</div>
-  <div class="subtitle text-center" style="max-width: 500px;">
+<div class="flex flex-col items-center justify-center mt-10">
+  <div class="text-2xl font-semibold mb-6" style="color: #2a9d5c;">Vediamola in azione</div>
+  <div class="subtitle text-center mb-10" style="max-width: 500px;">
     Chat, messaggi, allegati, push notification e videochiamate — tutto dal vivo sull'app.
+  </div>
+  <div class="flex gap-10 items-center">
+    <img src="/testflight.png" style="height: 60px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />
+    <img src="/googlePlay.png" style="height: 60px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));" />
   </div>
 </div>
