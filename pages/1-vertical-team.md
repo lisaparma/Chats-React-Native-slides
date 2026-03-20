@@ -134,7 +134,3 @@ Chi lavora sul web può lavorare sul mobile
 Un team → tutti i client: web, iOS, Android
 </div>
 </div>
-
-<!--
-E qui entra in gioco React Native. È la tecnologia che ci permette di chiudere il cerchio. Perché? Perché è basata su React e TypeScript — esattamente lo stack che usiamo già tutti i giorni per il web. Non dobbiamo imparare un linguaggio nuovo, non dobbiamo assumere persone nuove. La logica di business — gli store Zustand, i modelli dati, le regole — è già scritta e già testata sul web. La portiamo su mobile così com'è. La stessa persona che lavora su una feature web può lavorare sulla stessa feature mobile. Un team, tutti i client: web, iOS, Android. Questo è il completamento naturale della verticalizzazione.
--->
