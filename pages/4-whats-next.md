@@ -32,8 +32,4 @@
 </div>
 </div>
 
-<!--
-E per chiudere, dove stiamo andando. Oggi — adesso — l'app funziona ed è compatibile con Carbonio 25.12. Non è un prototipo: è un'app che si installa, si usa, e fa quello che deve fare. A metà aprile apriamo la beta interna: la installiamo sui telefoni di chi vuole provarla in azienda e raccogliamo feedback reale. In primavera usciamo con una beta pubblica controllata — un numero limitato di utenti per validare stabilità e performance su scala. In estate, rilascio ufficiale su App Store e Google Play. E ricordiamoci una cosa fondamentale: grazie agli aggiornamenti OTA di Expo, anche dopo il rilascio possiamo mandare fix e piccole feature direttamente sui telefoni, senza aspettare la review degli store. Questo ci dà un'agilità che con un'app nativa tradizionale non avremmo mai. Grazie per l'attenzione — se avete domande, sono qui.
--->
-
 ---
