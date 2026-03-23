@@ -58,23 +58,23 @@ classDef native fill:#133d27,stroke:#2a9d5c,stroke-width:1px,color:#94a3b8,font-
 
 # Perché ora?
 
-<div class="grid grid-cols-2 gap-12 mt-10">
-<div>
+<div class="grid grid-cols-2 gap-12 mt-10" style="grid-auto-rows: 1fr;">
+<div style="display: flex; flex-direction: column;">
 
 ### 2019
 
-<div class="p-4 mt-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border-left: 3px solid #e63946;">
+<div class="p-4 mt-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border-left: 3px solid #e63946; flex: 1;">
 
-- La gestione delle video chiamate su React Native era un incubo
+- La gestione delle videochiamate su React Native era più complessa
 - Il bridge JS/native era un collo di bottiglia
 
 </div>
 </div>
-<div>
+<div style="display: flex; flex-direction: column;">
 
 ### Oggi
 
-<div class="p-4 mt-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border-left: 3px solid #61dafb;">
+<div class="p-4 mt-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border-left: 3px solid #61dafb; flex: 1;">
 
 - **New Architecture** stabile, bridge rimosso
 - **Expo EAS** affidabile in produzione

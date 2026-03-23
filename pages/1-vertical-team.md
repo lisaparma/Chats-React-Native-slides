@@ -7,6 +7,12 @@
 - What's next
 
 ---
+layout: center
+---
+
+# Contesto
+
+---
 
 # Contesto
 
@@ -71,18 +77,18 @@ layout: center
 
 <div class="subtitle mb-4">Perché ora?</div>
 
-<div class="grid grid-cols-2 gap-3">
-<div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px; border: 1px solid rgba(97,218,251,0.15);">
-<div style="color: #94a3b8; font-size: 0.85em; margin-bottom: 0.6em;">L'idea</div>
-<ul style="margin: 0; padding-left: 1.2em; line-height: 1.8;">
+<div class="grid grid-cols-2 gap-8" style="grid-auto-rows: 1fr;">
+<div class="p-5" style="background: rgba(97,218,251,0.08); border-left: 3px solid #61dafb; border-radius: 12px;">
+<div style="color: #61dafb; font-size: 0.75em; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.6em;">L'idea</div>
+<ul style="margin: 0; padding-left: 1.2em; color: #e2e8f0;">
 <li>Sviluppo mobile dentro i team verticali</li>
 <li>Stessi vantaggi visti per backend e frontend</li>
 <li>Un team, tutti i client: web, iOS, Android</li>
 </ul>
 </div>
-<div class="p-5" style="background: rgba(230,57,70,0.08); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
-<div style="color: #94a3b8; font-size: 0.85em; margin-bottom: 0.6em;">Il blocco (fino a ieri)</div>
-<ul style="margin: 0; padding-left: 1.2em; line-height: 1.8;">
+<div class="p-5" style="background: rgba(230,57,70,0.08); border-left: 3px solid #e85d6a; border-radius: 12px;">
+<div style="color: #e85d6a; font-size: 0.75em; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.6em;">Il blocco (fino a ieri)</div>
+<ul style="margin: 0; padding-left: 1.2em; color: #e2e8f0;">
 <li>Servivano troppi esperti mobile dedicati</li>
 <li>7 anni fa il cross-platform non era maturo</li>
 <li>Chiamate e video: prestazioni insufficienti</li>
@@ -90,6 +96,6 @@ layout: center
 </div>
 </div>
 
-<div class="p-3 mt-6" style="background: rgba(97,218,251,0.09); border-radius: 8px; border: 1px solid rgba(97,218,251,0.12); font-size: 1rem;">
+<div class="p-4 mt-8" style="background: rgba(42,157,92,0.1); border-radius: 12px; color: #e2e8f0; font-size: 0.9em;">
 Oggi la tecnologia è cambiata. Abbiamo fatto un esperimento di 3 mesi per verificarlo.
 </div>

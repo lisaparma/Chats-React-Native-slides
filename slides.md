@@ -57,7 +57,11 @@ fonts:
 
 /* — Liste — */
 .slidev-layout li {
-  line-height: 1.8;
+  line-height: 1.3;
+  margin-bottom: 0.75em;
+}
+.slidev-layout li:last-child {
+  margin-bottom: 0;
 }
 
 .slidev-layout li::marker {

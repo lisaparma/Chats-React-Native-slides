@@ -72,8 +72,8 @@ layout: center
 - Persistenza messaggi offline
 - Caricamento immagine gruppo
 - Forward messaggi
-- Ricerca messaggi*
 - Adattamento UX/UI per piattaforma
+- Ricerca messaggi*
 
 </div>
   </div>
