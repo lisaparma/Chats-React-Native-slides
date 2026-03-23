@@ -1,4 +1,4 @@
-# What's Next
+# What's next
 
 <div class="mt-6 mb-4 subtitle">La roadmap da qui al rilascio ufficiale.</div>
 

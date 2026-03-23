@@ -107,108 +107,6 @@ fonts:
   justify-content: center;
 }
 
-/* — Badge sezione (in alto a destra) — */
-.slidev-layout.section-map::before,
-.slidev-layout.section-react::before,
-.slidev-layout.section-app::before,
-.slidev-layout.section-next::before {
-  position: fixed;
-  bottom: 12px;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.72em;
-  font-weight: 600;
-  font-family: 'DM Sans', sans-serif;
-  letter-spacing: 0.03em;
-  z-index: 100;
-}
-
-.slidev-layout.section-map::before {
-  content: 'team';
-  left: 2%;
-  background: rgba(230,57,70,0.15);
-  color: #e63946;
-  border: 1px solid rgba(230,57,70,0.3);
-}
-
-.slidev-layout.section-react::before {
-  content: 'react native';
-  left: 27%;
-  background: rgba(97,218,251,0.15);
-  color: #61dafb;
-  border: 1px solid rgba(97,218,251,0.3);
-}
-
-.slidev-layout.section-app::before {
-  content: "l'app";
-  left: 52%;
-  background: rgba(42,157,92,0.15);
-  color: #2a9d5c;
-  border: 1px solid rgba(42,157,92,0.3);
-}
-
-.slidev-layout.section-next::before {
-  content: "what's next";
-  left: 77%;
-  background: rgba(244,194,13,0.15);
-  color: #f4c20d;
-  border: 1px solid rgba(244,194,13,0.3);
-}
-
-/* — Progress bar — */
-.slidev-layout.section-map::after,
-.slidev-layout.section-react::after,
-.slidev-layout.section-app::after,
-.slidev-layout.section-next::after {
-  content: '';
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  pointer-events: none;
-  z-index: 100;
-  background: linear-gradient(to right,
-    rgba(230,57,70,0.2) 0% 25%,
-    rgba(97,218,251,0.2) 25% 50%,
-    rgba(42,157,92,0.2) 50% 75%,
-    rgba(244,194,13,0.2) 75% 100%
-  );
-}
-
-.slidev-layout.section-map::after {
-  background: linear-gradient(to right,
-    #e63946 0% 25%,
-    rgba(97,218,251,0.2) 25% 50%,
-    rgba(42,157,92,0.2) 50% 75%,
-    rgba(244,194,13,0.2) 75% 100%
-  );
-}
-.slidev-layout.section-react::after {
-  background: linear-gradient(to right,
-    rgba(230,57,70,0.2) 0% 25%,
-    #61dafb 25% 50%,
-    rgba(42,157,92,0.2) 50% 75%,
-    rgba(244,194,13,0.2) 75% 100%
-  );
-}
-.slidev-layout.section-app::after {
-  background: linear-gradient(to right,
-    rgba(230,57,70,0.2) 0% 25%,
-    rgba(97,218,251,0.2) 25% 50%,
-    #2a9d5c 50% 75%,
-    rgba(244,194,13,0.2) 75% 100%
-  );
-}
-.slidev-layout.section-next::after {
-  background: linear-gradient(to right,
-    rgba(230,57,70,0.2) 0% 25%,
-    rgba(97,218,251,0.2) 25% 50%,
-    rgba(42,157,92,0.2) 50% 75%,
-    #f4c20d 75% 100%
-  );
-}
-
 /* — Utility per evidenziare numeri grandi — */
 .big-number {
   font-size: 3em;
@@ -230,12 +128,12 @@ fonts:
 }
 </style>
 
-<div class="flex items-center gap-16 h-full">
-<img src="/icon-blu.png" class="shrink-0" style="max-height: 250px; object-fit: cover; border-radius: 22%;" />
+<div class="flex items-center gap-8 h-full">
+<img src="/icon-blu.png" class="shrink-0" style="max-height: 230px; object-fit: cover; border-radius: 22%;" />
 <div>
 
-# Chats App
-## L'evoluzione mobile
+<h1 style="font-size: 3em; white-space: nowrap;">Chats App in React Native</h1>
+<h2>Cosa abbiamo imparato e possibili evoluzioni future</h2>
 
 <p class="subtitle mt-4">25 marzo 2026</p>
 

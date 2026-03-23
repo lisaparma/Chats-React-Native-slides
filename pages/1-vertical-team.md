@@ -1,62 +1,50 @@
-# Da Team Orizzontali a Verticali
+# Agenda
+- Contesto
+- Come possiamo migliorare?
+- Stack tecnologico
+- Cosa abbiamo realizzato
+- Demo
+- What's next
 
-<div class="text-lg leading-relaxed mt-2">
-Due anni fa abbiamo riorganizzato i team per prodotto, non più per competenza
-</div>
+---
 
-<div class="mt-8">
+# Contesto
 
-<div class="flex flex-col gap-3 mt-2">
-  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Un team, un prodotto</span> <span class="subtitle">— dalla UI al database, tutto sotto lo stesso tetto</span></div>
-  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Niente code</span> <span class="subtitle">— una feature non aspetta l'ok di un altro team</span></div>
-  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Chi lo fa, lo mantiene</span> <span class="subtitle">— il contesto rimane sempre in casa</span></div>
-  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Dal ticket al deploy</span> <span class="subtitle">— zero passaggi di mano nel mezzo</span></div>
-  <div class="flex items-baseline gap-2"><span style="color:#61dafb;">▸</span> <span style="color:#61dafb; font-weight:600;">Perimetro chiaro</span> <span class="subtitle">— ogni persona sa esattamente di cosa è responsabile</span></div>
-</div>
-
+<div class="flex flex-col items-center justify-center gap-4" style="height: calc(100% - 60px);">
+  <div class="text-center p-8" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.2); border-radius: 12px; width: 360px;">
+    <div class="text-sm font-semibold mb-2" style="color: #94a3b8; letter-spacing: 0.08em; text-transform: uppercase;">2022</div>
+    <div class="text-lg font-semibold" style="color: #e2e8f0;">Team orizzontali</div>
+    <div class="text-sm mt-2" style="color: #94a3b8;">Frontend · Backend · Mobile</div>
+  </div>
+  <div class="text-2xl" style="color: #61dafb;">↓</div>
+  <div class="text-center p-8" style="background: rgba(97,218,251,0.15); border: 1px solid rgba(97,218,251,0.4); border-radius: 12px; width: 360px;">
+    <div class="text-sm font-semibold mb-2" style="color: #61dafb; letter-spacing: 0.08em; text-transform: uppercase;">Ora</div>
+    <div class="text-lg font-semibold" style="color: #e2e8f0;">Team verticali per backend e frontend</div>
+    <div class="text-sm mt-2" style="color: #94a3b8;">Mails · Calendars · Chats · Files · …</div>
+  </div>
 </div>
 
 ---
 
-# I Risultati
+# I vantaggi
 
 <div class="text-lg leading-relaxed mt-2">
-Dalla progettazione alla produzione, tutto nello stesso team
+Team autonomi: dalla progettazione al rilascio.
 </div>
 
-<div class="grid grid-cols-2 gap-3 mt-6">
-<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-
-**Meno handoff**
-
-Meno riunioni di allineamento, meno ticket che rimbalzano
-
-</div>
-<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-
-**Dominio condiviso**
-
-Chi entra nel team capisce subito il perimetro
-
-</div>
-<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-
-**Bug fix rapidi**
-
-Chi fixa il bug è chi ha scritto il codice
-
-</div>
-<div class="p-2 text-sm" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-
-**Roadmap chiara**
-
-Nessuna zona grigia su chi fa cosa
-
-</div>
-</div>
-
-<div class="mt-6 p-3 text-center" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-Un unico team · Zero dipendenze esterne
+<div class="grid grid-cols-2 gap-4 mt-6">
+  <div class="flex items-center justify-center p-4" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.15); border-radius: 12px;">
+    <div class="text-center font-semibold text-xl" style="color: #f1f5f9;">Meno handoff</div>
+  </div>
+  <div class="flex items-center justify-center p-4" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.15); border-radius: 12px;">
+    <div class="text-center font-semibold text-xl" style="color: #f1f5f9;">Dominio condiviso</div>
+  </div>
+  <div class="flex items-center justify-center p-4" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.15); border-radius: 12px;">
+    <div class="text-center font-semibold text-xl" style="color: #f1f5f9;">Bug fixing più rapido</div>
+  </div>
+  <div class="flex items-center justify-center p-4" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.15); border-radius: 12px;">
+    <div class="text-center font-semibold text-xl" style="color: #f1f5f9;">??</div>
+  </div>
 </div>
 
 ---
@@ -67,70 +55,11 @@ layout: center
 
 ---
 
-# Ulteriore verticalizzazione
+# Portare il mobile nel team verticale
 
-<div class="mt-8">
-
-Inglobare il **client mobile**.
-
-<div class="grid grid-cols-3 gap-6 mt-8">
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Stesso Team**
-
-Chi sviluppa il mobile ora conosce l'universo del discorso.
-
-</div>
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Features "quasi" unica**
-
-Ora le feature sviluppate dal front end sono riutilizzabili l'70% anche nel mobile
-
-</div>
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Bug fix veloce x3**
-
-Chi risolve il bug conosce il contesto e la stessa correzione può essere condivisa tra frontend e mobile
-
-</div>
-</div>
-</div>
-
----
-
-# Come Chiudiamo il Cerchio
-
-<div class="mt-8">
-
-React Native porta il mobile **dentro il team Chats**.
-
-<div class="grid grid-cols-3 gap-6 mt-10">
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Stesso stack**
-
-TypeScript, React, Zustand — niente di nuovo da imparare
-
-</div>
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Stessa logica**
-
-Il codice di business è già scritto e già testato
-
-</div>
-<div class="text-center p-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border: 1px solid rgba(97,218,251,0.2);">
-
-**Stessa persona**
-
-Chi lavora sul web può lavorare sul mobile
-
-</div>
-</div>
-
-<div class="mt-8 text-center text-lg" style="color: #61dafb;">
-Un team → tutti i client: web, iOS, Android
-</div>
+<div class="flex flex-col items-center justify-center text-center" style="height: calc(100% - 100px);">
+  <div class="text-2xl font-semibold mb-6" style="color: #e2e8f0;">Perché ora?</div>
+  <div v-click class="text-lg px-12" style="color: #94a3b8; max-width: 680px; line-height: 1.7;">
+    Sette anni fa c'erano limitazioni tecniche. Oggi la tecnologia è avanzata e abbiamo fatto l'esperimento per vedere se potevamo farlo.
+  </div>
 </div>

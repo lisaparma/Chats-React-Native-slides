@@ -11,25 +11,7 @@ layout: center
     <img src="/app1.png" style="width: 100%; display: block; filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));" />
   </div>
   <div class="flex flex-col gap-3 flex-1">
-    <div class="grid grid-cols-2 gap-3">
-      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">50</div>
-        <div class="subtitle text-sm">giorni di sviluppo</div>
-      </div>
-      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">~60%</div>
-        <div class="subtitle text-sm">codice dal web</div>
-      </div>
-      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">0</div>
-        <div class="subtitle text-sm">blocker tecnici</div>
-      </div>
-      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
-        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">2</div>
-        <div class="subtitle text-sm">piattaforme, 1 codebase</div>
-      </div>
-    </div>
-    <div class="grid grid-cols-2 gap-3">
+<div class="grid grid-cols-2 gap-3">
       <div class="text-center p-3" style="background: rgba(42,157,92,0.1); border-radius: 8px; border: 1px solid rgba(42,157,92,0.25);">
         <div style="font-size: 2.2em; font-weight: 700; color: #2a9d5c; line-height: 1.2;">80%</div>
         <div class="subtitle text-sm">feature parity — chat</div>
@@ -37,6 +19,24 @@ layout: center
       <div class="text-center p-3" style="background: rgba(244,194,13,0.08); border-radius: 8px; border: 1px solid rgba(244,194,13,0.25);">
         <div style="font-size: 2.2em; font-weight: 700; color: #f4c20d; line-height: 1.2;">40%</div>
         <div class="subtitle text-sm">feature parity — videochiamate</div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">~60%</div>
+        <div class="subtitle text-sm">codice dal web</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">2</div>
+        <div class="subtitle text-sm">piattaforme, 1 codebase</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">0</div>
+        <div class="subtitle text-sm">blocker tecnici</div>
+      </div>
+      <div class="text-center p-3" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
+        <div style="font-size: 2.2em; font-weight: 700; color: #61dafb; line-height: 1.2;">50*</div>
+        <div class="subtitle text-sm">giorni di sviluppo</div>
       </div>
     </div>
   </div>
@@ -72,7 +72,8 @@ layout: center
 - Persistenza messaggi offline
 - Caricamento immagine gruppo
 - Forward messaggi
-- Ricerca messaggi
+- Ricerca messaggi*
+- Adattamento UX/UI per piattaforma
 
 </div>
   </div>
@@ -91,8 +92,8 @@ layout: center
 
 ### ✅ Fatto
 
-- Audio (stream locale e remoto)
-- Video (stream locale e remoto)
+- Audio
+- Video
 - Selezione dispositivi (cuffie, bluetooth, altoparlante)
 - Integrazione con chiamate native
 - Ice restart — riconnessione automatica al cambio rete*
@@ -106,9 +107,9 @@ layout: center
 - Recording
 - Condivisione schermo
 - Visualizzare chi sta parlando
-- Alzata di mano
 - Gestione virtual room
-- Waiting room
+- Alzata di mano*
+- Waiting room*
 
 </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: center
 ---
-# React Native & Expo
+# Stack tecnologico
 ---
 
 # React Native & Expo
@@ -14,26 +14,24 @@ layout: center
 
 ---
 
-# Codice condiviso
+# Codice condiviso frontend-mobile
 
 ```mermaid
 ---
 config:
   treemap:
-    valueFormat: '.0%'
-    showValues: true
+    showValues: false
     padding: 16
     headerHeight: 36
 ---
 
 treemap-beta
-"Codice Carbonio Chats frontend e mobile"
-    "Business Logic": 0.70:::shared
-    "Web": 0.30:::web
+    "Business Logic  —  70%": 0.70:::shared
+    "Web  —  30%": 0.30:::web
     "Mobile":::mobileGroup
-        "React Native / Expo": 0.20:::rn
-        "Apple iOS": 0.05:::native
-        "Android": 0.05:::native
+        "React Native / Expo  —  20%": 0.20:::rn
+        "Apple iOS  —  10%": 0.10:::native
+        "Android  —  10%": 0.10:::native
 
 classDef shared fill:#0e4d6e,stroke:#61dafb,stroke-width:3px,color:#ffffff,font-size:22px,font-weight:bold,rx:10,ry:10;
 classDef web fill:#163d5c,stroke:#61dafb,stroke-width:2px,color:#e2e8f0,font-size:20px,rx:10,ry:10;
@@ -54,12 +52,12 @@ React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione
 
 ---
 
-# Perché Ora?
+# Perché ora?
 
 <div class="grid grid-cols-2 gap-12 mt-10">
 <div>
 
-### Al tempo
+### 2019
 
 <div class="p-4 mt-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border-left: 3px solid #e63946;">
 
