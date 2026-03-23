@@ -24,7 +24,7 @@
   </div>
   <div class="text-2xl" style="color: #61dafb;">↓</div>
   <div class="text-center p-8" style="background: rgba(97,218,251,0.15); border: 1px solid rgba(97,218,251,0.4); border-radius: 12px; width: 360px;">
-    <div class="text-sm font-semibold mb-2" style="color: #61dafb; letter-spacing: 0.08em; text-transform: uppercase;">Prossimo Passo?</div>
+    <div class="text-sm font-semibold mb-2" style="color: #61dafb; letter-spacing: 0.08em; text-transform: uppercase;">Prossimo Passo</div>
     <div class="text-lg font-semibold" style="color: #e2e8f0;">?</div>
   </div>
 </div>
@@ -37,7 +37,7 @@
 Team autonomi: dalla progettazione al rilascio.
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-6">
+<div class="grid grid-cols-2 gap-4 mt-6" style="height:80%">
   <div class="flex items-center justify-center p-4" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.15); border-radius: 12px;">
     <div class="text-center font-semibold text-xl" style="color: #f1f5f9;">Perimetro chiaro</div>
   </div>
@@ -58,7 +58,6 @@ Team autonomi: dalla progettazione al rilascio.
   </div>
 </div>
 
-</div>
 
 ---
 layout: center
@@ -69,14 +68,8 @@ layout: center
 ---
 
 # Portare il mobile nel team verticale
-
-<div class="flex flex-col items-center justify-center text-center" style="height: calc(100% - 100px);">
-  <div class="text-2xl font-semibold mb-6" style="color: #e2e8f0;">Perché ora?</div>
-</div>
+Perché ora?
 <div class="flex gap-8 mt-4 items-start">
-  <div class="shrink-0" style="width: 200px;">
-    <img src="/app2.png" style="width: 100%; display: block; filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));" />
-  </div>
   <div class="grid grid-cols-2 gap-4 flex-1">
     <div class="p-5" style="background: rgba(97,218,251,0.08); border-radius: 8px;">
 
@@ -97,12 +90,15 @@ layout: center
 
 </div>
 
-<div class="p-5" style="background: rgba(230,57,70,0.08); border-radius: 8px; border: 1px solid rgba(230,57,70,0.2);">
-
-### Oggi la tecnologia è cambiata. Abbiamo fatto un esperimento di 3 mesi per verificarlo.
-
-</div>
 
 
   </div>
+
+
 </div>
+
+  <div class="p-5" style="margin-top: 10px;background: rgba(97,218,251,0.08); border-radius: 8px; border: 1px solid rgba(97,218,251,0.08); ">
+  
+  ### Oggi la tecnologia è cambiata. Abbiamo fatto un esperimento di 3 mesi per verificarlo.
+  
+  </div>
