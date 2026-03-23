@@ -120,6 +120,12 @@ fonts:
   font-size: 0.95em;
 }
 
+.note {
+  color: #64748b;
+  font-size: 0.72em;
+  line-height: 1.5;
+}
+
 /* — Slide number — */
 .slidev-page-number {
   color: rgba(148, 163, 184, 0.7) !important;
