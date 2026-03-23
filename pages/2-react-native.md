@@ -8,9 +8,13 @@ layout: center
 
 <br />
 
-- **React Native**: framework open source di Meta per creare app mobile native usando JavaScript/TypeScript e React. Permette di scrivere una sola codebase per iOS e Android, con UI e performance native.
+- **React Native**: 
+    - framework open source di Meta 
+    - usa JavaScript/TypeScript e React 
+    - una sola codebase per iOS e Android
+    - UI e performance native.
 
-- **Expo**: piattaforma e toolchain che semplifica lo sviluppo React Native. Offre strumenti, librerie, build cloud e aggiornamenti OTA, rendendo più facile e veloce creare, testare e distribuire app mobile.
+- **Expo**: piattaforma e toolchain che semplifica lo sviluppo React Native. 
 
 ---
 
@@ -42,14 +46,14 @@ classDef native fill:#133d27,stroke:#2a9d5c,stroke-width:1px,color:#94a3b8,font-
 
 ---
 
-# Upgrade degli SDK
+# Gestione delle applicazioni negli store 
 
-React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione negli store:
+<br />
 
-- Upgrade SDK: Expo offre comandi e documentazione per aggiornare facilmente l’SDK, con tool che automatizzano gran parte del processo. React Native ha una community attiva e strumenti come “react-native upgrade”.
-- Pubblicazione negli store: Expo fornisce build cloud, generazione automatica di pacchetti (APK/IPA) e procedure guidate per la pubblicazione su App Store e Google Play, riducendo errori e complessità.
-- con Expo è possibile fare un “hot upgrade” tramite gli aggiornamenti OTA (Over The Air). E' possibile distribuire nuove versioni del codice JavaScript/TypeScript (fix, feature, UI) direttamente sui dispositivi degli utenti, senza dover ripubblicare l’app negli store
-
+- Processo di rilascio più snello e automatizzato
+- Pubblicazione sugli store più semplice
+- Possibilità di aggiornamenti OTA (Over The Air), bypassando in alcuni casi l'approvazione di Apple/Google
+- Una sola pipeline di rilascio per entrambe le piattaforme
 ---
 
 # Perché ora?
@@ -61,9 +65,8 @@ React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione
 
 <div class="p-4 mt-4" style="background: rgba(230,57,70,0.1); border-radius: 8px; border-left: 3px solid #e63946;">
 
-- WebRTC su React Native era un incubo
+- La gestione delle video chiamate su React Native era un incubo
 - Il bridge JS/native era un collo di bottiglia
-- I team erano separati, non c'era contesto condiviso
 
 </div>
 </div>
@@ -90,14 +93,12 @@ React Native ed Expo semplificano sia l’upgrade degli SDK che la pubblicazione
 
 - Alcune API native non hanno wrapper pronti, servono moduli custom
 - La New Architecture è stabile ma giovane
-- Performance leggermente inferiori in casi molto specifici (grafica, animazioni complesse)
 </div>
 
 <div class="p-4 mt-4" style="background: rgba(97,218,251,0.1); border-radius: 8px; border-left: 3px solid #61dafb;">
 
 - React Native è estendibile con codice nativo
 - In caso di mancato aggiornamento, feature leggermente più lente
-- Solo per applicazioni molto spinte graficamente (giochi o rendering)
 
 </div>
 </div>
