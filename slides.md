@@ -133,7 +133,7 @@ fonts:
 <div>
 
 <h1 style="font-size: 3em; white-space: nowrap;">Chats App in React Native</h1>
-<h2>Cosa abbiamo imparato e possibili evoluzioni future</h2>
+<h2>Dall'esperimento alla proposta</h2>
 
 <p class="subtitle mt-4">25 marzo 2026</p>
 
