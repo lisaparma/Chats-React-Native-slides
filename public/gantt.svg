@@ -1,0 +1,69 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <mask id="textgaps" maskUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="680" height="300" fill="white"/>
+    <rect x="26" y="66" width="54" height="16" fill="black" rx="2"/>
+    <rect x="26" y="116" width="72" height="16" fill="black" rx="2"/>
+    <rect x="26" y="166" width="80" height="16" fill="black" rx="2"/>
+    <rect x="26" y="216" width="70" height="16" fill="black" rx="2"/>
+    <rect x="178" y="70" width="153" height="14" fill="black" rx="2"/>
+    <rect x="222" y="120" width="248" height="14" fill="black" rx="2"/>
+    <rect x="407" y="170" width="170" height="14" fill="black" rx="2"/>
+    <rect x="372" y="255" width="130" height="12" fill="black" rx="2"/>
+    <rect x="510" y="220" width="89" height="14" fill="black" rx="2"/>
+  </mask>
+</defs>
+
+<!-- Month headers -->
+<text x="145" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Mar</text>
+<text x="220" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Apr</text>
+<text x="295" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Mag</text>
+<text x="370" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Giu</text>
+<text x="445" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Lug</text>
+<text x="520" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Ago</text>
+<text x="595" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#8899aa">Set</text>
+
+<!-- Vertical grid lines -->
+<line x1="145" y1="26" x2="145" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="220" y1="26" x2="220" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="295" y1="26" x2="295" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="370" y1="26" x2="370" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="445" y1="26" x2="445" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="520" y1="26" x2="520" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+<line x1="595" y1="26" x2="595" y2="235" stroke="#8899aa" stroke-width="0.3" opacity="0.3" mask="url(#textgaps)"/>
+
+<!-- "Oggi" marker -->
+<line x1="145" y1="22" x2="145" y2="238" stroke="#61dafb" stroke-width="1.5" opacity="0.55"/>
+<text x="145" y="252" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" fill="#61dafb" opacity="0.85">oggi</text>
+
+<!-- Row labels -->
+<text x="30" y="80" font-family="DM Sans, sans-serif" font-size="12" fill="#ffffff" font-weight="500">Sviluppo</text>
+<text x="30" y="130" font-family="DM Sans, sans-serif" font-size="12" fill="#ffffff" font-weight="500">Beta interna</text>
+<text x="30" y="180" font-family="DM Sans, sans-serif" font-size="12" fill="#ffffff" font-weight="500">Beta pubblica</text>
+<text x="30" y="230" font-family="DM Sans, sans-serif" font-size="12" fill="#ffffff" font-weight="500">Rilascio GA</text>
+
+<!-- Bar 1: Sviluppo (Mar → Giu) -->
+<rect x="145" y="60" width="225" height="28" rx="6" fill="#61dafb" opacity="0.2"/>
+<rect x="145" y="60" width="225" height="28" rx="6" fill="none" stroke="#61dafb" stroke-width="0.8" opacity="0.6"/>
+<text x="257" y="78" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" fill="#61dafb">Completamento feature + test</text>
+
+<!-- Bar 2: Beta interna (Fine Apr → Inizio Ago) -->
+<rect x="220" y="110" width="300" height="28" rx="6" fill="#61dafb" opacity="0.14"/>
+<rect x="220" y="110" width="300" height="28" rx="6" fill="none" stroke="#61dafb" stroke-width="0.6" opacity="0.4" stroke-dasharray="4 2"/>
+<text x="370" y="128" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" fill="#61dafb" opacity="0.85">Uso interno</text>
+
+<!-- Marker: Rilascio Carbonio 26.6 -->
+<line x1="407" y1="26" x2="407" y2="235" stroke="#f0a030" stroke-width="1.2" opacity="0.7" stroke-dasharray="5 3"/>
+<text x="407" y="252" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="9" fill="#f0a030" opacity="0.85">Rilascio Carbonio 26.6</text>
+
+<!-- Bar 3: Beta pubblica (Rilascio 26.6 → Fine Ago) -->
+<rect x="407" y="160" width="188" height="28" rx="6" fill="#f0a030" opacity="0.18"/>
+<rect x="407" y="160" width="188" height="28" rx="6" fill="none" stroke="#f0a030" stroke-width="0.6" opacity="0.5" stroke-dasharray="4 2"/>
+<text x="501" y="178" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" fill="#f0a030" opacity="0.9">Feedback + stabilizzazione</text>
+
+<!-- Bar 4: Rilascio GA (Ago → Set) -->
+<rect x="520" y="210" width="75" height="28" rx="6" fill="#2a9d5c" opacity="0.25"/>
+<rect x="520" y="210" width="75" height="28" rx="6" fill="none" stroke="#2a9d5c" stroke-width="0.6" opacity="0.7" stroke-dasharray="4 2"/>
+<text x="557" y="228" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="9" fill="#2a9d5c">Sostituzione app</text>
+
+</svg>
