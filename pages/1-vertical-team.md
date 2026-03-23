@@ -14,7 +14,7 @@ layout: center
 
 ---
 
-# Contesto
+# Il percorso
 
 <div class="flex flex-col items-center justify-center gap-2" style="height: calc(100% - 60px);">
   <div class="text-center p-5" style="background: rgba(97,218,251,0.08); border: 1px solid rgba(97,218,251,0.2); border-radius: 12px; width: 360px;">
@@ -37,10 +37,10 @@ layout: center
 
 ---
 
-# I vantaggi
+# Vantaggi
 
 <div class="text-lg leading-relaxed mt-2">
-Team autonomi: dalla progettazione al rilascio.
+I risultati della verticalizzazione.
 </div>
 
 <div class="grid grid-cols-2 gap-4 mt-6" style="height:80%">
@@ -69,7 +69,7 @@ Team autonomi: dalla progettazione al rilascio.
 layout: center
 ---
 
-# Come possiamo migliorare?
+# E il mobile?
 
 ---
 
