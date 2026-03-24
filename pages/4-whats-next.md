@@ -16,4 +16,4 @@ Da oggi al rilascio ufficiale
 </div>
 
 <div class="subtitle text-sm mt-2">Compatibile con Carbonio 25.9 e successivi</div>
----
+
