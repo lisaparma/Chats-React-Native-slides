@@ -1,10 +1,10 @@
 # Agenda
 - Contesto
-- Come possiamo migliorare?
+- E il mobile?
 - Stack tecnologico
 - Cosa abbiamo realizzato
 - Demo
-- What's next
+- Prossimi passi
 
 ---
 layout: center
