@@ -96,6 +96,6 @@ layout: center
 </div>
 </div>
 
-<div class="p-4 mt-8" style="background: rgba(42,157,92,0.1); border-radius: 12px; color: #e2e8f0; font-size: 0.9em;">
+<div class="p-4 mt-8 text-center" style="background: rgba(42,157,92,0.1); border-radius: 12px; color: #e2e8f0; font-size: 0.9em;">
 Oggi la tecnologia è cambiata. Abbiamo fatto un esperimento di 3 mesi per verificarlo.
 </div>
